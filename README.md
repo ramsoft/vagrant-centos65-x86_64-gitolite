@@ -40,8 +40,8 @@ repo    example
 
 ```
 $ git commit -am "Add example" && git push
+# git repos are in /var/lib/gitolite/repositories/
 ```
-# gitolite repos are in: /var/lib/gitolite/repositories/
 ## Use the repository
 
 ```
