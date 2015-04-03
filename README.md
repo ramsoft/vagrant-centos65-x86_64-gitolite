@@ -39,9 +39,9 @@ repo    example
 ```
 
 ```
-$ git commit -m "Add example" && git push
+$ git commit -am "Add example" && git push
 ```
-
+# gitolite repos are in: /var/lib/gitolite/repositories/
 ## Use the repository
 
 ```
