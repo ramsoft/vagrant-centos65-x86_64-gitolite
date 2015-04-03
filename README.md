@@ -8,6 +8,7 @@ vagrant recipe for installing gitolite server
 $ git clone https://github.com/mattn/vagrant-centos65-x86_64-gitolite
 $ cd vagrant-centos65-x86_64-gitolite
 $ mkdir .vagrant
+$ ssh-keygen -t rsa # generate if key doesn't already exist
 $ cp /path/to/your/ssh/public/key/id_rsa.pub .vagrant/admin.pub
 $ vagrant up
 ```
